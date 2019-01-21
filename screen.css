@@ -1,4 +1,4 @@
-.image_text {
+.image_text_1 {
 	float:left;
 	margin:2% 0% 0 13%;
 	font-size: 120%;
@@ -11,7 +11,11 @@
 	background-repeat: no-repeat;
 }
 
-.image_text:hover {
+.image_text_1:hover {
 	background-image:url("resources/body_language_5_edited.jpg");
 	color:rgba(0,0,0,0);
+}
+
+button {
+	border: 0;
 }
