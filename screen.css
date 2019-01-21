@@ -7,21 +7,11 @@
 	line-height:140%;
 	letter-spacing: -0.5px;
 	width:40%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
 }
 
-img.size_1 {
-	display: block;
-	width: 381px;
-	height: 544px;
-	position: absolute;
-	margin-top: 0px;
-	opacity: 0;
-}
-
-.image :hover .image_text {
-	color: rgba(0, 0, 0, 0);
-}
-
-.image:hover img {
-	opacity: 1;
+.image_text:hover {
+	background-image:url("resources/body_language_5_edited.jpg");
+	color:rgba(0,0,0,0);
 }
