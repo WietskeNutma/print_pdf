@@ -1,0 +1,27 @@
+.image_text {
+	float:left;
+	margin:2% 0% 0 13%;
+	font-size: 120%;
+	font-family: 'Inknut Antiqua', serif;
+	font-weight:300;
+	line-height:140%;
+	letter-spacing: -0.5px;
+	width:40%;
+}
+
+img.size_1 {
+	display: block;
+	width: 381px;
+	height: 544px;
+	position: absolute;
+	margin-top: 0px;
+	opacity: 0;
+}
+
+.image :hover .image_text {
+	color: rgba(0, 0, 0, 0);
+}
+
+.image:hover img {
+	opacity: 1;
+}
